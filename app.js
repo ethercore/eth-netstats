@@ -409,6 +409,6 @@ var nodeCleanupTimeout = setInterval( function ()
 
 }, 1000*60*60);
 
-server.listen(3000, '127.0.0.1');
+server.listen(3000);
 
 module.exports = server;
